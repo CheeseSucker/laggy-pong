@@ -1,0 +1,23 @@
+html {
+    background: #123;
+    font-family: sans-serif;
+    padding: 1em;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #aaa;
+    padding: 1em 3em;
+    box-shadow: rgba(0,0,0,0.5) 2px 1px 3px 3px;
+}
+
+canvas {
+    background: black;
+    width: 400px;
+    height: 200px;
+}
+
+form {
+    display: none;
+}

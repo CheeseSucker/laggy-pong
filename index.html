@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Laggy pong</title>
+    <link href="src/css/game.css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Quantum laggy pong</h1>
 
+    <form>
+        <label>
+            <strong>Delay (seconds): (not implemented yet)</strong><br />
+            <input type="number" min="0" max="1" step="0.1" name="delay" value="0.5" />
+        </label>
+    </form>
+
+    <pre>
+        - Controls - (sorry mobile users)
+        Left paddle: W/S
+        Right paddle: Arrow keys
+        Launch ball: Space
+    </pre>
+
+    <h2>Player 1</h2>
+    <canvas id="canvas-player1"></canvas>
+
+    <h2>Player 2</h2>
+    <canvas id="canvas-player2"></canvas>
+
+    <script src="src/controller.js" type="module"  async></script>
 </body>
 </html>
